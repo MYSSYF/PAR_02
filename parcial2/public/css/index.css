@@ -1,0 +1,109 @@
+#titulo {
+    color: rgb(73, 98, 167);
+    font-size: 48px;
+}
+
+
+
+.user-card {
+    width: 700px;
+    height: 110px;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    background-color: rgb(120, 152, 167);
+    position: relative;
+    margin: auto;
+    margin-top: 10PX;
+    width: 70%;
+
+}
+
+.user-card-content {
+    color: white;
+}
+
+
+.user-card-StarOne {
+    position: absolute;
+    top: 50;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+
+}
+.user-card-StarTwo {
+    position: absolute;
+    top: 50;
+    left: 70px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+
+}
+.user-card-StarTre {
+    position: absolute;
+    top: 50;
+    left: 130px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+.user-card-StarTetra {
+    position: absolute;
+    top: 50;
+    left: 190px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+.user-card-StarPenta {
+    position: absolute;
+    top: 50;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+
+
+.numero {
+    position: absolute;
+    top: 50px;
+    right: 6px;
+}
+
+.user-card-plus {
+    position: absolute;
+    top: 100px;
+    right: 6px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 2 / 6 / 5;
+    background: #7ab4c5;
+}
+
+.div2 {
+    grid-area: 1 / 3 / 2 / 4;
+    background: #b9ccce;
+}
+
+.div3 {
+    grid-area: 2 / 3 / 6 / 4;
+    background: #a9bebd;
+    
+
+}
+
+#h2 {
+    color: rgb(73, 98, 167);
+}
